@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://b821myv7hqira"]
+
+[ext_resource type="PackedScene" uid="uid://fwu54aoaj54t" path="res://top_wall.tscn" id="1_0xm2m"]
+[ext_resource type="PackedScene" uid="uid://co01ajuouhen3" path="res://bottom_wall.tscn" id="2_h2yge"]
+
+[node name="Main" type="Node2D"]
+
+[node name="TopWall" parent="." instance=ExtResource("1_0xm2m")]
+
+[node name="BottomWall" parent="." instance=ExtResource("2_h2yge")]
